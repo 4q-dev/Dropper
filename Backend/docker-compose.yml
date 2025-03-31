@@ -1,0 +1,12 @@
+﻿services:
+  dropper.domain:
+    image: dropper.domain
+    build:
+      context: .
+      dockerfile: src/Domain/Dropper.Domain/Dockerfile
+
+  dropper.presentation:
+    image: dropper.presentation
+    build:
+      context: .
+      dockerfile: src/Presentation/Dropper.Presentation/Dockerfile
