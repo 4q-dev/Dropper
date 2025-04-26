@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropper.Application", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropper.Infrastructure", "src\Infrastructure\Dropper.Infrastructure\Dropper.Infrastructure.csproj", "{C5881B6A-96E2-4314-9204-3CA3D10A2207}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{FCD54A2C-59A5-4E65-9263-1BAEB007ECF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropper.SharedKernel", "src\Shared\Dropper.SharedKernel\Dropper.SharedKernel.csproj", "{5E307B43-7A2A-4BE8-A8C6-733322A61872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +45,12 @@ Global
 		{C5881B6A-96E2-4314-9204-3CA3D10A2207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5881B6A-96E2-4314-9204-3CA3D10A2207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5881B6A-96E2-4314-9204-3CA3D10A2207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E307B43-7A2A-4BE8-A8C6-733322A61872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E307B43-7A2A-4BE8-A8C6-733322A61872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E307B43-7A2A-4BE8-A8C6-733322A61872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E307B43-7A2A-4BE8-A8C6-733322A61872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E307B43-7A2A-4BE8-A8C6-733322A61872} = {FCD54A2C-59A5-4E65-9263-1BAEB007ECF8}
 	EndGlobalSection
 EndGlobal

@@ -8,10 +8,7 @@
 
     <ItemGroup>
       <PackageReference Include="CSharpFunctionalExtensions" Version="3.6.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\..\Shared\Dropper.SharedKernel\Dropper.SharedKernel.csproj" />
+      <PackageReference Include="FluentValidation" Version="11.5.1" />
     </ItemGroup>
 
 </Project>
